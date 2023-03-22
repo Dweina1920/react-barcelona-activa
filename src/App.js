@@ -15,7 +15,7 @@ function App() {
 
   const [data, setData] = useState("");
   const fillAPare = (fraseDelFill) => {
-    console.log("frase del fill", fraseDelFill);
+    console.log("frase del fill :", fraseDelFill);
     setData(fraseDelFill);
   };
   return (

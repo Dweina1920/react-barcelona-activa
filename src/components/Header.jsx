@@ -3,6 +3,7 @@ import logo from '../img/logo.jpg';
 import Salutacio from '../components/Salutacio';
 import '../styles/Header.css'
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import LoginControl from './LoginControl';
 
 class Header extends Component{
     render(){
@@ -15,7 +16,7 @@ class Header extends Component{
             <img src={logo} alt="Logo" height="50" className="d-inline-block align-top" />
           </Navbar.Brand>
          
-          <Salutacio nick={nom}/>
+          <LoginControl nick={nom}/>
           
         </Container>
       </Navbar>
